@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Fjalla One", sans-serif; }
+
+
+body {
+    background-color: black; 
+  }
+
+.App {
+  text-align: center;
+  font-size: 1.5rem;
+  color: grey;
+  background-color: black; 
+}
+
+.card { 
+  display: flex;
+  text-align: center;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  font-size: 1.5rem;
+}
+
+.hoyts {
+  margin: 100px;
+  background-color: black;
+
+}
+
+.intro {
+  margin: 50px;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+  color: azure;
+  padding: 100px;
+
+}
+
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.icon {
+  margin-top: 20px;
+  margin-left: 200px;
+}
+
+.productoDetalle { 
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding: 40px;
+}
+
+.batman {
+height: 700px;
+padding: 20px;
+}
+
+.batman3 {
+  height: 300px;
+  padding: 20px;
+  }
+
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  padding-top: 30px;
+
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  padding: 10px;
+  margin: 10px;
+  width: 500px;
+  background-color: gray;
+  border-radius: 0.5rem;
+  color: black;
+  text-align: center;
+}
+
+h3 {
+  color: gray;
+  padding: 10px;
+}
+
+.count {
+  color: gray;
+  font-size: 2rem;
+  background-color: white;
+}
+
+.batman2 {
+  padding: 10px;
+  text-align: center;
+}
+
+.componente1 {
+  background-color: black;
+}
+
+.background {
+  color: black;
+}
+
+.footer1 {
+  background-color: #282c34;
+  width: 100%;
+  height: 100px;
+  padding: 3rem 0;
+  padding-bottom: 100PX;
+}
+
+.img-footer {
+  color: grey;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.footerLeyenda {
+  font-size: 1.4rem;
+  color: grey;
+  background-color: #282c34;
+  padding-top: 10px;
+}
+
+.notFound {
+background-color: black;
+font-size: 2rem;
+padding: 100px;
+text-align: center;
+color: azure;
+}
+
+.me-auto {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.navOpcion {
+ padding-left: 30px;
+ color: gray;
+ padding-top: 20px;
+ padding-bottom: 15px;
+ font-size: 2rem;
+}
+
+.sedesTotales {
+  background-color: black;
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 50px;
+  color: gray;
+}
+
+.sedes {
+  list-style: none;
+}
+
+.contacto {
+  background-color: black;
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 50px;
+  color: gray;
+}
+
+.contacto2 {
+  list-style: none;
+}
+
+.peliculaVer {
+  color: gray;
+}
+
+.resumen {
+  width: 500px;
+  padding: 30px;
+}
+
+.agregarCarrito {
+  font-size: 1.5rem;
+  color: orange;
+}
+
+.imagenFondo {
+  background-color: black;
+  align-items: center;
+  padding-left: 530px;
+}
+
+.imagenFondo1 {
+  background-color: black;
+  align-items: center;
+  padding-left: 100px;
+}
+
+.imagenFondo2 {
+  background-color: black;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.carrito {
+  text-align: center;
+  margin-left: 40%;
+}
+
+
+/* Carrito */
+
+.carritoProductos {
+  padding-left: 50%;
+}
+
+.carritoProductos table {
+  font-size: 2rem;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.carritoProductos table thead th {
+  text-align: center;
+  border-bottom: 0 !important;
+}
+
+.carritoProductos table thead th:nth-child(2) {
+  text-align: left;
+}
+
+.carritoProductos .carritoProducto__img {
+  height: 120px;
+  width: 120px;
+  text-align: center;
+}
+
+.carritoProductos .carritoProducto__img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.carritoProductos .carritoProducto__titulo {
+  font-size: 2rem;
+  vertical-align: middle;
+  padding: 0 1rem;
+}
+
+.carritoProductos .carritoProducto__precio {
+  font-size: 2rem;
+  vertical-align: middle;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.carritoProductos .carritoProducto__cantidad {
+  font-size: 2rem;
+  vertical-align: middle;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.carritoProductos .carritoProducto__subtotal {
+  font-size: 2rem;
+  vertical-align: middle;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.carritoProductos .carritoProducto__eliminar {
+  font-size: 2rem;
+  vertical-align: middle;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.botonComprar {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.mx-2 {
+  width: 300px;
+}
+.botonComprar button{
+  font-size: 2rem;
+  color:aliceblue
+}
