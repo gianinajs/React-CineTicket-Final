@@ -18,7 +18,7 @@ function FullCart({cart, buyAll}) {
           </div>
           <div className='botonComprar'>
             <Button variant="warning" className="mx-2" onClick={buyAll}>
-              <Link to='/comprar'>Comprar</Link></Button>
+              <Link to='/form'>Comprar</Link></Button>
           </div>
       </>
     )

@@ -299,5 +299,38 @@ color: azure;
 }
 .botonComprar button{
   font-size: 2rem;
-  color:aliceblue
+}
+
+/* Firebase */  
+
+.imagen100 {
+  object-fit: cover;
+}
+
+
+
+/*Form Checkout*/
+
+.formOrder {
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+  padding-bottom: 50px;
+  }
+.ordenCompra{
+  padding-bottom: 30px;
+  color: grey;
+}
+.form-control{
+  margin-bottom: 15px;
+}
+.contenedorForm {
+  background-color: black;
+}
+.ordenFinal{
+  text-align: center;
+  color: grey;
+  font-size: 3rem;
+  padding: 200px;
+
 }

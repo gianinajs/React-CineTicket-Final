@@ -13,6 +13,7 @@ import Icon from './Componentes/CartWidget';
 import CartContextProvider from './Componentes/CartContext';
 import Cart from './Cart/Cart';
 import FullCart from './Cart/FullCart';
+import TestForm from './Formulario/Form';
 
 
 function App() {
@@ -31,7 +32,7 @@ function App() {
           <Route exact path='/sedes' element={<ItemSedes />} />
           <Route exact path='/contacto' element={<ItemContacto/>} />
           <Route exact path='/cart' element={<Cart/>} />
-          <Route exact path='/comprar' element={FullCart} />
+          <Route exact path='/form' element={<TestForm/>} />
         </Routes>
         <Footer />
       </BrowserRouter>
