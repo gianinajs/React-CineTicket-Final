@@ -2,7 +2,7 @@
 
 ### Pre-Visualizacion
 
-![](/preview.gif)
+![](preview1.gif)
 
 En este repositorio encontraran el proyecto final realizado para el curso de React de CoderHouse, el cual constituye el tercer curso de la carrera de Front End.
 
