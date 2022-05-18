@@ -23,7 +23,11 @@ const ItemDetail =({producto}) => {
                         <p className="card-text">{producto.idioma}</p>
                         <p className="card-text">{producto.categoria}</p>
                         <p className="card-text">${producto.precio}</p>
-                        { number === 0 ? <ItemCount stock={producto.stock} addCart={addCart} />: <Button variant="light" ><Link className="agregarCarrito" to='/cart'>Ir al Carrito</Link></Button>
+                        { number === 0 ? <ItemCount stock={producto.stock} addCart={addCart} />: 
+                            <Button variant="" >
+                                <Link className="agregarCarrito" to='/cart'>Ir al Carrito
+                                </Link>
+                            </Button>
                         }
                     </div>
                 </div>

@@ -18,8 +18,8 @@ function FullCart({cart, buyAll}) {
               <p >${valorTotal}</p>
             </div>
             <div className='botonComprar'>
-              <Button variant="warning" className="mx-2" onClick={buyAll}>
-                <Link to='/form'>Comprar</Link></Button>
+              <Button variant="" className="mx-2" onClick={buyAll}>
+                <Link className='botonComprar1' to='/form'>Comprar</Link></Button>
             </div>
         </div>
       </>

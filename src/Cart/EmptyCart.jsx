@@ -7,7 +7,7 @@ function EmptyCart() {
     <>
         <div className="emptyCart">
             <h4>Carrito vacío.</h4>
-            <Link to="/">Volver a la Ticketera</Link>
+            <Link to="/" className='volverTickets'><a>Volver a la Ticketera</a></Link>
         </div>
     </>
   )
