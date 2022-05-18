@@ -17,7 +17,7 @@ Este proyecto incluye todos los conceptos de React vistos a lo largo del curso, 
 ### Instalar Localmente
 
 ```
-git clone https://github.com/gianinajs/React-EntregaFinal-CineTickets
+git clone https://github.com/gianinajs/React-CineTicket-Final
 cd bacall-store
 npm install
 ```
