@@ -13,7 +13,7 @@ const Cart = () => {
     return (
         <> 
         <div className="contacto">
-        <div className="imagenFondo2"><img className='hoyts' src={hoyts}/></div>
+        <div className="text-center imagenFondo"><img className='img-fluid' src={hoyts}/></div>
         { cart.length > 0 ? <FullCart cart={cart}/> : <EmptyCart/> }
         </div>
         </> 

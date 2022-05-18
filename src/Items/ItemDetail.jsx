@@ -14,20 +14,20 @@ const ItemDetail =({producto}) => {
 }
     return (
         <>
-        <div>
             <div className="productoDetalle">
-                <img className="batman" src={producto.imagen}/>
-                <div className="batman2">
-                    <h2>{producto.pelicula}</h2>
-                    <h3 className="resumen">{producto.resumen}</h3>
-                    <h3>{producto.idioma}</h3>
-                    <h3>{producto.categoria}</h3>
-                    <h3>${producto.precio}</h3>
-                    { number === 0 ? <ItemCount stock={producto.stock} addCart={addCart} />: <Button variant="light" ><Link className="agregarCarrito" to='/cart'>Ir al Carrito</Link></Button>
-                    }
+                <img class="img-fluid" width={700} height={100} src={producto.imagen}/>
+                <div className="card text-center col-sm-3 bg-black" >
+                    <h5 className="card-header">{producto.pelicula}</h5>
+                    <div className="card-body">
+                        <h5 className="card-title">{producto.resumen}</h5>
+                        <p className="card-text">{producto.idioma}</p>
+                        <p className="card-text">{producto.categoria}</p>
+                        <p className="card-text">${producto.precio}</p>
+                        { number === 0 ? <ItemCount stock={producto.stock} addCart={addCart} />: <Button variant="light" ><Link className="agregarCarrito" to='/cart'>Ir al Carrito</Link></Button>
+                        }
+                    </div>
                 </div>
             </div>
-        </div>
         </>
     );
 

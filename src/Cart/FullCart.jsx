@@ -9,17 +9,19 @@ function FullCart({cart, buyAll}) {
   const { valorTotal } = useContext(CartContext)
     return (
       <>
-          <div className="col-md-8">
-              <CartProducts cart={cart}/>
-          </div>
-          <div>
-            <p>Total</p>
-            <p>${valorTotal}</p>
-          </div>
-          <div className='botonComprar'>
-            <Button variant="warning" className="mx-2" onClick={buyAll}>
-              <Link to='/form'>Comprar</Link></Button>
-          </div>
+        <div className='productosTotales'>
+            <div className="col-md-12">
+                <CartProducts cart={cart}/>
+            </div>
+            <div className='valoresTotales'>
+              <p >Total</p>
+              <p >${valorTotal}</p>
+            </div>
+            <div className='botonComprar'>
+              <Button variant="warning" className="mx-2" onClick={buyAll}>
+                <Link to='/form'>Comprar</Link></Button>
+            </div>
+        </div>
       </>
     )
   }

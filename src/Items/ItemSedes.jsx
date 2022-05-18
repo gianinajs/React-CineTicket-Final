@@ -8,7 +8,7 @@ const ItemSedes = () => {
     return (
         <>
         <div className="sedesTotales">
-        <div className="imagenFondo1"><img className='hoyts' src={hoyts}/></div>
+        <div className="text-center imagenFondo"><img className='img-fluid' src={hoyts}/></div>
             <ul className="sedes">
                 <li>Hoyts Abasto</li>
                 <li>Hoyts Dot</li>
