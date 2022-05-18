@@ -17,7 +17,7 @@ Este proyecto incluye todos los conceptos de React vistos a lo largo del curso, 
 ### Instalar Localmente
 
 ```
-git clone https://github.com/ManuelNelson7/bacall-store
+git clone https://github.com/gianinajs/React-EntregaFinal-CineTickets
 cd bacall-store
 npm install
 ```
@@ -28,5 +28,5 @@ npm start
 ```
 
 
+
 `Gianina Santarella`
-https://www.github.com/gianinajs
